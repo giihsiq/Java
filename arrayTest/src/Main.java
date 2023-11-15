@@ -7,7 +7,6 @@ public class Main {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Escreva um número: ");
         int n = sc.nextInt();
 
         /* tipo do vetor - vect (vetor) = criar novo vetor do tipo double com [n vezes] */
@@ -28,7 +27,7 @@ public class Main {
 
         double avg = (sum / n);
 
-        System.out.println(avg);
+        System.out.printf("Average height: %2f%n", avg);
 
         sc.close();
 
